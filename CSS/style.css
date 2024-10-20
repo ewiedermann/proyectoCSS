@@ -74,12 +74,49 @@ nav ul li a:hover {
     font-size: 1.5rem;
 }
 
+
+/* Selector por ID */
+
 #nosotros {
     padding: 50px 20px;
     text-align: center;
     background-color: #f4f4f4;
 }
 
+
+/* Selector combinado descendente */
+
 #nosotros h2 {
     font-size: 2.5rem;
+}
+
+
+/* Selector combinado descendente */
+
+#nosotros p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+
+/* Selector class */
+
+.servicios {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+/* Selector combinado descendente */
+
+.servicios h2 {
+    font-size: 2.5rem;
+}
+
+
+/* Selector class */
+
+.servicios-item {
+    margin-bottom: 20px;
 }
