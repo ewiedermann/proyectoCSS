@@ -25,8 +25,61 @@ header .logo img {
     height: 50px;
 }
 
+
+/* Selector combinado descendente */
+
 nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
+}
+
+
+/* Selector combinado descendente */
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+/* Selector combinado descendente */
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#inicio {
+    background: url("../imagenes/imagen.jpg") no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* Selector combinado descendente */
+
+.inicio-contenido h1 {
+    font-size: 3rem;
+}
+
+
+/* Selector combinado descendente */
+
+.inicio-contenido p {
+    font-size: 1.5rem;
+}
+
+#nosotros {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#nosotros h2 {
+    font-size: 2.5rem;
 }
