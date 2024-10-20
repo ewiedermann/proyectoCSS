@@ -152,8 +152,51 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 
+
+/*Selector combinado descendente */
+
 .contacto label {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
+}
+
+
+/*Selector combinado descendente */
+
+.contacto input,
+.contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/*Selector combinado descendente */
+
+.contacto button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+/*Selector combinado descendente */
+
+.contacto button:hover {
+    background-color: #555;
+}
+
+
+/* Selector class */
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
